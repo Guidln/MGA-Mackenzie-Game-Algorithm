@@ -11,8 +11,6 @@ Projeto Aplicado III • Universidade Presbiteriana Mackenzie
 ![React](https://img.shields.io/badge/React-TypeScript-8B1A14?style=flat&logo=react&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-cosseno-D4A017?style=flat&logo=scikitlearn&logoColor=white)
 
-![MGA Discovery](artifacts/linkedin/01_capa.png)
-
 </div>
 
 ---
