@@ -48,14 +48,6 @@ Cada jogo vira um vetor de **34 atributos**: gênero, plataforma, país de maior
 
 <!-- [![Aplicação na comunidade](https://img.youtube.com/vi/ID_DO_VIDEO/maxresdefault.jpg)](SEU_LINK) -->
 
-## 🖼️ O sistema
-
-| Recomendações | Explicação |
-|---|---|
-| ![Top 5](artifacts/linkedin/02_top5_elden_ring.png) | ![Por que este jogo?](artifacts/linkedin/03_por_que_baldurs_gate_3.png) |
-
-> As imagens acima são visualizações com os resultados reais da Etapa 3 (Elden Ring → Baldur's Gate 3, similaridade 0,8351).
-
 ## ✨ Funcionalidades
 
 - 🏠 **Início**: busca, jogos em destaque e indicadores gerais
@@ -66,8 +58,6 @@ Cada jogo vira um vetor de **34 atributos**: gênero, plataforma, país de maior
 - 📊 **MGA Insights**: indicadores, gráficos e limitações do modelo
 
 ## 🧠 Como funciona
-
-![Como o MGA recomenda](artifacts/linkedin/05_como_funciona.png)
 
 1. **Atributos:** codificação multi-hot (gênero e plataforma), one-hot (país), `log1p` e padronização nas variáveis numéricas, mediana com indicador de ausência.
 2. **Pesos por bloco:** gênero 2,0 • numérico 1,0 • plataforma 0,5 • país 0,5, cada bloco dividido por √(nº de colunas).
@@ -84,8 +74,6 @@ Cada jogo vira um vetor de **34 atributos**: gênero, plataforma, país de maior
 | ⚖️ Gini | 0,303 | **0,275** |
 | 🌈 Diversidade intralista | 0,501 | **0,519** |
 | ✅ Validade das explicações | 27,8% | **100%** (990 de 990) |
-
-![Baseline versus modelo final](artifacts/linkedin/04_baseline_vs_final.png)
 
 Sensibilidade a 54 combinações de pesos: Jaccard@5 médio de 0,62. Com ruído gaussiano (σ = 0,05): 0,69.
 
