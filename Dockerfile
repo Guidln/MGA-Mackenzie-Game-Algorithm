@@ -1,16 +1,10 @@
-# Imagem única (API + interface) para Render, Railway, Fly.io etc.
-FROM node:22-alpine AS web
-WORKDIR /web
+FROM node:22-alpine AS build
+WORKDIR /app
 COPY frontend/package.json ./
 RUN npm install
 COPY frontend/ .
 RUN npm run build
-
-FROM python:3.11-slim
-WORKDIR /app
-COPY backend/requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY backend/ .
-COPY --from=web /web/dist /app/dist
-ENV MGA_FRONTEND_DIST=/app/dist
-CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+FROM nginx:alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+COPY frontend/nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
