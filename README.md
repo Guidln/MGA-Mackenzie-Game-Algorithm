@@ -11,6 +11,8 @@ Projeto Aplicado III • Universidade Presbiteriana Mackenzie
 ![React](https://img.shields.io/badge/React-TypeScript-8B1A14?style=flat&logo=react&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-cosseno-D4A017?style=flat&logo=scikitlearn&logoColor=white)
 
+![MGA Discovery](artifacts/linkedin/01_capa.png)
+
 </div>
 
 ---
@@ -48,6 +50,14 @@ Cada jogo vira um vetor de **34 atributos**: gênero, plataforma, país de maior
 
 <!-- [![Aplicação na comunidade](https://img.youtube.com/vi/ID_DO_VIDEO/maxresdefault.jpg)](SEU_LINK) -->
 
+## 🖼️ O sistema
+
+| Recomendações | Explicação |
+|---|---|
+| ![Top 5](artifacts/linkedin/02_top5_elden_ring.png) | ![Por que este jogo?](artifacts/linkedin/03_por_que_baldurs_gate_3.png) |
+
+> As imagens acima são visualizações com os resultados reais da Etapa 3 (Elden Ring → Baldur's Gate 3, similaridade 0,8351).
+
 ## ✨ Funcionalidades
 
 - 🏠 **Início**: busca, jogos em destaque e indicadores gerais
@@ -58,6 +68,8 @@ Cada jogo vira um vetor de **34 atributos**: gênero, plataforma, país de maior
 - 📊 **MGA Insights**: indicadores, gráficos e limitações do modelo
 
 ## 🧠 Como funciona
+
+![Como o MGA recomenda](artifacts/linkedin/05_como_funciona.png)
 
 1. **Atributos:** codificação multi-hot (gênero e plataforma), one-hot (país), `log1p` e padronização nas variáveis numéricas, mediana com indicador de ausência.
 2. **Pesos por bloco:** gênero 2,0 • numérico 1,0 • plataforma 0,5 • país 0,5, cada bloco dividido por √(nº de colunas).
@@ -74,6 +86,8 @@ Cada jogo vira um vetor de **34 atributos**: gênero, plataforma, país de maior
 | ⚖️ Gini | 0,303 | **0,275** |
 | 🌈 Diversidade intralista | 0,501 | **0,519** |
 | ✅ Validade das explicações | 27,8% | **100%** (990 de 990) |
+
+![Baseline versus modelo final](artifacts/linkedin/04_baseline_vs_final.png)
 
 Sensibilidade a 54 combinações de pesos: Jaccard@5 médio de 0,62. Com ruído gaussiano (σ = 0,05): 0,69.
 
@@ -94,8 +108,8 @@ Sensibilidade a 54 combinações de pesos: Jaccard@5 médio de 0,62. Com ruído 
 
 Requisitos: **Python 3.11+** e **Node.js 20+**.
 
-1. Coloque a planilha da base (com a aba `Base_Jogos`) em `backend/data/`. Qualquer nome `.xlsx` serve.
-2. Rode o script:
+1. A base oficial já está incluída em `backend/data/the_game_awards_2014_2024_ofc.xlsx` (aba `Base_Jogos`, 66 jogos).
+2. No Windows, execute `run.bat` com dois cliques. No Linux/macOS, execute `./run.sh`.
 
 ```bash
 ./run.sh          # Linux/macOS
@@ -155,3 +169,12 @@ O algoritmo é o `mga_pipeline.py` original; a única alteração foi o caminho 
 🎓 **Projeto Aplicado III** • Universidade Presbiteriana Mackenzie • 2026
 
 </div>
+
+## Pesquisa com usuários e aprendizado com a comunidade
+
+- **/pesquisa** – formulário de 5 etapas (perfil, preferências, jogos jogados com nota + lista de desejos + favorito, teste das recomendações, opinião sobre o sistema/NPS). Progresso e “salvo às HH:MM” em tempo real; prévia ao vivo das recomendações.
+- **Nada se perde:** cada alteração é salva no navegador e, 0,8 s depois, no servidor (tabela `rascunhos`), mesmo que a pessoa não conclua. A resposta final guarda também o JSON bruto completo.
+- **/respostas** – painel com títulos mais jogados/melhor avaliados, aprovação das recomendações (por posição e por par), lista de desejos, favoritos, perfil, NPS, usabilidade, textos abertos. Exporta **CSV** e **JSON completo** (respostas + rascunhos).
+- **Feedback loop (`backend/app/services/community.py`):** o ranking passa a ser `(1-w)·conteúdo + w·comunidade`, com `w = 0,6·n/(n+25)` (n = respostas). Comunidade = similaridade item-item das notas (45%) + aprovação direta do par referência→recomendado (35%) + qualidade média do jogo (20%). Sem respostas, w = 0 e o resultado é idêntico ao MGA original. A tela de Recomendações tem o seletor “Com a comunidade / Só conteúdo”, e a Home mostra os favoritos e as sugestões dos jogadores.
+- Respostas em `backend/data/respostas.db` (SQLite). Para proteger o painel e as exportações, defina `MGA_ADMIN_TOKEN`.
+- **Capas:** `python scripts/fetch_covers.py` (uma vez, com internet) baixa a capa de todos os jogos para `backend/data/covers/` e gera `covers.json`; sem isso, o navegador busca na Wikipédia (com cache) e, se falhar, mostra uma capa tipográfica.
