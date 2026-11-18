@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-ink text-paper font-sans antialiased; }
+.card { @apply rounded-2xl border border-line bg-panel; }
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition-colors; }
+.btn-red { @apply bg-mga text-paper hover:bg-[#a31f18] disabled:opacity-40; }
+.btn-ghost { @apply border border-line text-paper/80 hover:bg-white/5; }
+.input { @apply w-full rounded-xl border border-line bg-ink px-3 py-2 text-sm outline-none focus:border-gold; }
+.muted { @apply text-paper/60; }
+
+html { scroll-behavior: smooth; }
+:focus-visible { outline: 2px solid #D4A017; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
+.card-hover { @apply transition duration-200 hover:border-gold/50 hover:shadow-xl hover:shadow-black/50; }
+.chip { @apply inline-flex items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-sm text-paper/80 transition hover:border-gold/60; }
+.chip-on { @apply border-gold bg-gold/10 text-gold; }
+.btn-gold { @apply bg-gold text-ink hover:bg-[#e6b32a] disabled:opacity-40; }
+.btn:disabled { @apply cursor-not-allowed; }
+.hero-bg { background: radial-gradient(60% 80% at 85% 0%, rgba(139,26,20,.45), transparent 60%), radial-gradient(40% 60% at 0% 100%, rgba(212,160,23,.12), transparent 60%); }
+.skeleton { @apply animate-pulse rounded-xl bg-white/5; }

@@ -1,0 +1,10 @@
+BASE OFICIAL DO MGA DISCOVERY
+
+Arquivo: the_game_awards_2014_2024_ofc.xlsx
+Aba utilizada pelo sistema: Base_Jogos
+Registros: 66 jogos
+Matriz de atributos esperada: 66 x 34
+
+A planilha inclui também o dicionário de dados, resumo exploratório,
+valores ausentes, log de alterações, notas de fontes e evidências de recomendação.
+O backend identifica automaticamente esta planilha.
