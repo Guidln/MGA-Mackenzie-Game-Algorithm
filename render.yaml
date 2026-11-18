@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: mga-discovery
-    runtime: docker
-    dockerfilePath: ./Dockerfile
-    plan: free
-    healthCheckPath: /api/health
