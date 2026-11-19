@@ -101,7 +101,7 @@ Sensibilidade a 54 combinações de pesos: Jaccard@5 médio de 0,62. Com ruído 
 | 📄 Relatório final e anexos | [docs/entrega/MGA_Documento_Unico_Etapa4.pdf](docs/entrega/MGA_Documento_Unico_Etapa4.pdf) |
 | 📊 Planilha de resultados | [docs/entrega/MGA_Resultados_Etapa4.xlsx](docs/entrega/MGA_Resultados_Etapa4.xlsx) |
 | 💻 Artefatos de software | Este repositório |
-| 📺 Vídeo de apresentação (5 minutos) | _link na seção Vídeos_ |
+| 📺 Vídeo de apresentação | _link na seção Vídeos_ |
 | 🤝 Vídeo da aplicação na comunidade | _link na seção Vídeos_ |
 
 ## 🚀 Como rodar
