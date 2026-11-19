@@ -38,7 +38,7 @@ Cada jogo vira um vetor de **34 atributos**: gênero, plataforma, país de maior
 
 ### 📺 Vídeo de apresentação do projeto (5 minutos)
 
-> 🔗 **Link do YouTube:** _cole aqui o link do vídeo_
+> 🔗 **Link do YouTube:** _https://youtu.be/biRtRuGmsRY?is=6uFfrGFg4p2dOhBv_
 
 <!-- Para exibir a miniatura clicável, troque SEU_LINK e ID_DO_VIDEO e remova os comentários:
 [![Vídeo de apresentação](https://img.youtube.com/vi/ID_DO_VIDEO/maxresdefault.jpg)](SEU_LINK)
