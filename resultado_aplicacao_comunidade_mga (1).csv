@@ -1,0 +1,77 @@
+resposta_id,criado_em,faixa_etaria,horas_semana,tipo,referencia,titulo,nota_ou_resposta,posicao,similaridade
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,recomendacao_mga,Final Fantasy VII Rebirth,Metaphor ReFantazio,quero,1,0.8279
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,recomendacao_mga,Final Fantasy VII Rebirth,Xenoblade Chronicles 3,quero,2,0.6361
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,recomendacao_mga,Final Fantasy VII Rebirth,Elden Ring: Shadow of the Erdtree,quero,3,0.6348
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,recomendacao_mga,Final Fantasy VII Rebirth,Horizon Forbidden West,nao,4,0.6315
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,recomendacao_mga,Final Fantasy VII Rebirth,Astro Bot,quero,5,0.566
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,sugestao_usuario,,GTA VI,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Shovel Knight,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,The Witcher 3: Wild Hunt,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Uncharted 4,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Persona 5,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Control,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Animal Crossing New Horizons,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Elden Ring,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Alan Wake 2,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Zelda Tears of the Kingdom,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Astro Bot,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Final Fantasy VII Rebirth,,,
+1,2026-11-19T23:04:53+00:00,18–24,3–10 h,quero_jogar,,Resident Evil 4,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,recomendacao_mga,Bloodborne,Persona 5,quero,1,0.6928
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,recomendacao_mga,Bloodborne,Horizon Zero Dawn,nao,2,0.6343
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,recomendacao_mga,Bloodborne,Uncharted 4,quero,3,0.6152
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,recomendacao_mga,Bloodborne,Bayonetta 2,nao,4,0.6065
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,recomendacao_mga,Bloodborne,Dark Souls II,quero,5,0.5841
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,sugestao_usuario,,Valorant,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,quero_jogar,,Dark Souls II,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,quero_jogar,,Bloodborne,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,quero_jogar,,The Legend of Zelda: Breath of the Wild,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,quero_jogar,,God of War,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,quero_jogar,,Red Dead Redemption 2,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,quero_jogar,,Sekiro: Shadows Die Twice,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,quero_jogar,,God of War Ragnarök,,,
+2,2026-11-19T23:11:07+00:00,18–24,10–20 h,quero_jogar,,Black Myth Wukong,,,
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,recomendacao_mga,Red Dead Redemption 2,The Witcher 3: Wild Hunt,quero,1,0.7768
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,recomendacao_mga,Red Dead Redemption 2,God of War,quero,2,0.7744
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,recomendacao_mga,Red Dead Redemption 2,Elden Ring,nao,3,0.7602
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,recomendacao_mga,Red Dead Redemption 2,The Legend of Zelda: Breath of the Wild,quero,4,0.7503
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,recomendacao_mga,Red Dead Redemption 2,God of War Ragnarök,quero,5,0.6194
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,sugestao_usuario,,Minecraft,,,
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,quero_jogar,,Mario Kart 8,,,
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,quero_jogar,,Uncharted 4,,,
+3,2026-11-19T23:16:31+00:00,18–24,3–10 h,quero_jogar,,Red Dead Redemption 2,,,
+4,2026-11-19T23:23:12+00:00,18–24,3–10 h,recomendacao_mga,Bloodborne,Persona 5,quero,1,0.6928
+4,2026-11-19T23:23:12+00:00,18–24,3–10 h,recomendacao_mga,Bloodborne,Bayonetta 2,quero,4,0.6065
+4,2026-11-19T23:23:12+00:00,18–24,3–10 h,recomendacao_mga,Bloodborne,Dark Souls II,quero,5,0.5841
+4,2026-11-19T23:23:12+00:00,18–24,3–10 h,sugestao_usuario,,GTA VI,,,
+4,2026-11-19T23:23:12+00:00,18–24,3–10 h,quero_jogar,,Bloodborne,,,
+4,2026-11-19T23:23:12+00:00,18–24,3–10 h,quero_jogar,,Inside,,,
+4,2026-11-19T23:23:12+00:00,18–24,3–10 h,quero_jogar,,Super Mario Odyssey,,,
+4,2026-11-19T23:23:12+00:00,18–24,3–10 h,quero_jogar,,Persona 5,,,
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,recomendacao_mga,Control,A Plague Tale Requiem,quero,1,0.852
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,recomendacao_mga,Control,Death Stranding,gostei,2,0.8115
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,recomendacao_mga,Control,Middle-earth: Shadow of Mordor,quero,3,0.6996
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,recomendacao_mga,Control,Horizon Forbidden West,quero,4,0.6561
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,recomendacao_mga,Control,Ratchet & Clank: Rift Apart,nao,5,0.6493
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,sugestao_usuario,,Deadlock,,,
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,quero_jogar,,Dragon Age: Inquisition,,,
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,quero_jogar,,Bayonetta 2,,,
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,quero_jogar,,Celeste,,,
+5,2026-11-19T23:27:06+00:00,18–24,10–20 h,quero_jogar,,Control,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,recomendacao_mga,Titanfall 2,Doom Eternal,gostei,1,0.8752
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,recomendacao_mga,Titanfall 2,Doom,gostei,2,0.8561
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,recomendacao_mga,Titanfall 2,Far Cry 4,gostei,3,0.7091
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,recomendacao_mga,Titanfall 2,Inside,quero,4,0.555
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,recomendacao_mga,Titanfall 2,Metal Gear Solid V,gostei,5,0.5261
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,sugestao_usuario,,GTA VI,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Mario Kart 8,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Destiny,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Far Cry 4,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Metal Gear Solid V,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Overwatch,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Uncharted 4,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Titanfall 2,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,PUBG,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Resident Evil 2,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Doom Eternal,,,
+6,2026-11-19T23:32:10+00:00,18–24,Menos de 3 h,quero_jogar,,Resident Evil 4,,,
